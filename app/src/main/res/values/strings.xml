@@ -1,0 +1,24 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Reserva de Citas Médicas</string>
+    <string name="next">Siguiente</string>
+    <string name="confirm_appointment">Confirmar Cita</string>
+    <string name="appointment_confirmed">¡Cita Confirmada!</string>
+    <string name="invalid_date_time">Por favor, selecciona una fecha y hora válidas.</string>
+
+
+    <!-- Doctor Selection Fragment -->
+    <string name="doctor_selection_title">Seleccione un Doctor</string>
+    <string name="doctor_info">Doctor: %1$s\nEspecialidad: %2$s</string>
+
+    <!-- Appointment Details Fragment -->
+    <string name="appointment_details_title">Detalles de la Cita</string>
+    <string name="select_date">Seleccione una Fecha</string>
+    <string name="select_time">Seleccione una Hora</string>
+
+
+
+    <!-- Confirmation Fragment -->
+    <string name="confirmation_title">Confirmación de la Cita</string>
+    <string name="confirmation_info">Doctor: %1$s\nEspecialidad: %2$s\nFecha: %3$s\nHora: %4$s</string>
+</resources>

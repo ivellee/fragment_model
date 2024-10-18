@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/doctorSelectionFragment">
+
+    <fragment
+        android:id="@+id/doctorSelectionFragment"
+        android:name="com.actividad.fragment.DoctorSelectionFragment"
+        android:label="Doctor Selection"
+        tools:layout="@layout/fragment_doctor_selection">
+        <action
+            android:id="@+id/action_doctorSelection_to_appointmentDetails"
+            app:destination="@id/appointmentDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/appointmentDetailsFragment"
+        android:name="com.actividad.fragment.AppointmentDetailsFragment"
+        android:label="Appointment Details"
+        tools:layout="@layout/fragment_appointment_details">
+        <action
+            android:id="@+id/action_appointmentDetails_to_confirmation"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.actividad.fragment.ConfirmationFragment"
+        android:label="Confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+</navigation>
